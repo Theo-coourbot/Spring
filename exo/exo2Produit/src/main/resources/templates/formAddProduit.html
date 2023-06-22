@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<form action="#" th:action="${produit.id != null}?@{/produit/update} :@{/post/produit}" method="post" th:object="${produit}"}>
+  <div class="form-group">
+    <label for="marque">Marque</label>
+    <input type="text" class="form-control" th:field="*{marque}" id="marque" aria-describedby="emailHelp" placeholder="Marque">
+
+  </div>
+  <div class="form-group">
+    <label for="ref">reference</label>
+    <input type="text" class="form-control" th:field="*{reference}" id="ref" placeholder="ref">
+  </div>
+  <div class="form-group">
+    <label for="prix">prix</label>
+    <input type="number" class="form-control" th:field="*{prix}" id="prix" placeholder="prix">
+  </div>
+  <div class="form-group">
+    <label for="stock">stock dispo</label>
+    <input type="number" class="form-control" th:field="*{stock}" id="stock" placeholder="stock">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</body>
+</html>
