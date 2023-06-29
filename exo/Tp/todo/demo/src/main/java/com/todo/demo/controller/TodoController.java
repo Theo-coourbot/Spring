@@ -9,6 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
+
 @Controller
 @RequestMapping("/todo")
 public class TodoController {
@@ -73,13 +75,15 @@ public class TodoController {
         }
         return "Aucun todo avec l'id";
     }
-    @GetMapping("details/{id}")
+    @GetMapping("details")
     public String todoById(@PathVariable("id") Integer id ,Model model) {
 
         Todo todo = _todoService.findById(id);
         model.addAttribute("todo", todo);
         return "todoDetail";
     }
+//
+
     @GetMapping("changeStatus/{id}")
     public String todoupdateStatus(@PathVariable("id") Integer id) {
 

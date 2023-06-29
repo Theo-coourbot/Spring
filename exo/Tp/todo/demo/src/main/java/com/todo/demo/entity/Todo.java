@@ -22,6 +22,7 @@ public class Todo {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
 
+
     boolean isDone = false;
 
 

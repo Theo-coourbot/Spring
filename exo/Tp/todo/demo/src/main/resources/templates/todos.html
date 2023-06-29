@@ -35,6 +35,18 @@
         </tbody>
     </table>
 
+    <form method="post" th:action="@{/todo/filtre}">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>filtre par</option>
+            <option th:value="true">toute les taches faites</option>
+            <option th:value="false">toute les taches non faites</option>
+
+        </select>
+        <button>chercher</button>
+    </form>
+
+
+
 </div>
 
 

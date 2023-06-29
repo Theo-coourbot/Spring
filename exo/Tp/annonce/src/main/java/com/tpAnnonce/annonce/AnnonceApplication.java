@@ -1,14 +1,13 @@
-package com.todo.demo;
+package com.tpAnnonce.annonce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication
-public class TodoApplication {
+public class AnnonceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TodoApplication.class, args);
+		SpringApplication.run(AnnonceApplication.class, args);
 	}
 
 }

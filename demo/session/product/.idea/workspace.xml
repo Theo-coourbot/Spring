@@ -4,11 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adea12e0-7522-4b10-9205-cfe7f436a095" name="Changes" comment="" />
+    <list default="true" id="adea12e0-7522-4b10-9205-cfe7f436a095" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/Repository/AnnouncementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/Repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/Repository/PictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/controller/AnnoucementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/controller/PictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/entity/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/entity/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/service/AnnoucementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/service/PictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/java/com/tpAnnonce/annonce/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/resources/templates/accueil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/resources/templates/fragment/navBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/annonce/src/main/resources/templates/log-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/repository/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/TodoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/entity/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/service/impl/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/service/impl/TodoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/java/com/todo/demo/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/resources/hibernate.cfg.xml.oldVersion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/resources/templates/todos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/Tp/todo/demo/src/main/resources/templates/todos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exo/exoSession/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exo/exoSession/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,19 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrateur/Desktop/cours m2i/spring/demo/session/demoSessionCookie",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrateur/Desktop/cours m2i/spring/demo/session/product&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f5bf48aa40cad7891eb709fcf1fde128&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="product" />
@@ -59,6 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1687424664248</updated>
       <workItem from="1687424665369" duration="1403000" />
+      <workItem from="1687763471933" duration="616000" />
+      <workItem from="1687866500548" duration="10000" />
+      <workItem from="1688026524435" duration="604000" />
     </task>
     <servers />
   </component>

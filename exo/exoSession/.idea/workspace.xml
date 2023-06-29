@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bf6f0b1-b733-4086-a0d9-68912e8a6afa" name="Changes" comment="" />
+    <list default="true" id="9bf6f0b1-b733-4086-a0d9-68912e8a6afa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Tp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tp/todo/demo/src/main/java/com/todo/demo/service/impl/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tp/todo/demo/src/main/java/com/todo/demo/service/impl/TodoServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2RYWNnhjnsfJwenmRGtZvge2qvh" />
   <component name="ProjectViewState">
@@ -17,7 +23,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrateur/Desktop/cours m2i/spring/exo/exoSession/exoSession",
+    "last_opened_file_path": "C:/Users/Administrateur/Desktop/cours m2i/spring/demo/session/product",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -35,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687427457496</updated>
       <workItem from="1687427458561" duration="70000" />
+      <workItem from="1687763366205" duration="105000" />
     </task>
     <servers />
   </component>
